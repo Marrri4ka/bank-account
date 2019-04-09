@@ -23,19 +23,18 @@
 
               <form class="sign-up" action="index.html" method="post">
                 <div class="row">
-                  <label for="userName" class="col-md-3 col-form-label">Username:</label>
+                  <label for="userName" class="col-md-3">Username:</label>
                   <div class="col-md-9">
                     <input type="text"  class="form-control-input" name="userName" id="userName">
                   </div>
                 </div>
                 <div class="row">
-                  <label for="initialDeposit" class="col-md-3">Initial Deposit:</label>
+                  <label for="initialDeposit" class="col-md-3 col">Initial Deposit:</label>
                   <div class="col-md-6">
                     <input type="number" name="initialDeposit" min="1" step=".01" id="initialDeposit">
                   </div>
                   <div class="col-md-3">
                     <button class="btn btn-secondary" type="submit" name="button">Submit</button>
-
                   </div>
                 </div>
               </form>
@@ -65,15 +64,17 @@
           </div>
         </div>
       </div>
-      <div class="card bg-secondary">
-        <div class="card-header text-white bg-primary">
-          <h3>Current Balance</h3>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card bg-secondary">
+            <div class="card-header text-white bg-primary">
+              <h3>Current Balance</h3>
+            </div>
+            <div class="card-body bg-light">
+              <p id="current-balance"></p>
+            </div>
+          </div>
         </div>
-        <div class="card-body bg-light">
-          <p id="current-balance"></p>
-        </div>
-
-
       </div>
     </div>
   </body>

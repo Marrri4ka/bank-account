@@ -10,4 +10,11 @@ h3{
 }
  .card{
    height: 200px;
+   margin-bottom: 10px;
  }
+
+#current-balance{
+  text-align: center;
+  font-size: 40px;
+
+}

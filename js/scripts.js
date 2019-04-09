@@ -27,7 +27,7 @@ function deposit (amount){
 
 function displayBalance(balance){
 
-  $("#current-balance").text(balance);
+  $("#current-balance").text("$"+ balance);
 
 
 }
